@@ -51,7 +51,7 @@ jobs:
       - name: Run lint task
         run: task lint
 
-      - name: Run lint task
+      - name: Run docker lint task
         run: task dockerfile-lint
 
   qa:
