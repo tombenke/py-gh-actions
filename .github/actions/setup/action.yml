@@ -15,6 +15,6 @@ runs:
       run: |
           pip3 install --upgrade pip setuptools
           pip3 install --upgrade wheel
-          pip3 install --upgrade pathlib
+          pip3 install pathlib
       #run: python -m pip install --upgrade pip setuptools pathlib wheel
       shell: bash
