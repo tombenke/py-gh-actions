@@ -12,5 +12,6 @@ runs:
         python-version: "3.9"
 
     - name: Install python setuptools and wheel
-      run: python -m pip install --upgrade pip setuptools pathlib wheel
+      run: pip3 install --upgrade pip setuptools pathlib wheel
+      #run: python -m pip install --upgrade pip setuptools pathlib wheel
       shell: bash
